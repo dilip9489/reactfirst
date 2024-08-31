@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+//import Classcounter from "./components/Classcounter";
+//import HookCounter from "./components/hookcounter";
+//import HookCounter2 from "./components/hookcounter2";
+import React from "react";
+//import HookObject from "./components/hookwithObject";
+// import HookwithArray from "./components/hookwithArray";
+//import Newcounter from "./components/newClassCounter";
+//import Hookeffect from "./components/hookEffect";
+//import RunEffectOnce from "./components/RunEffectsOnce";
+//import Runeffect from "./components/runeffect";
+import DataFetching from "./components/fetchingData";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DataFetching />
     </div>
   );
 }
